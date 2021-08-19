@@ -147,7 +147,7 @@ exports.getAllReservations = getAllReservations;
   `;
 
   // 5
-  console.log(queryString, queryParams);
+  // console.log(queryString, queryParams);
 
   // 6
   return pool.query(queryString, queryParams).then((res) => res.rows);
